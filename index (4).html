@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Power Bank Tracking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+
+        .tracking-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Amazon inligetimate Return Tracking</h1>
+        <div class="tracking-info">
+            <label for="trackingCode">Enter Tracking Code:</label>
+            <input type="text" id="trackingCode" placeholder="Enter your tracking code">
+            <button onclick="trackPowerBank()">Track</button>
+        </div>
+        <p id="trackingResult"></p>
+    </div>
+
+    <script>
+        function trackPowerBank() {
+            var trackingCode = document.getElementById('trackingCode').value;
+            // Perform tracking logic and update the result
+            document.getElementById('trackingResult').innerText = 'your Ambrane 20000 mAh Mini Power Bank with 22.5W Fast Charging, Pocket Size, Triple Output, Type C PD (Input & Output), Li-Polymer, Made in India + Type C Cable (Powerlit XL Lite, Black) has been arrived from grugram NOTE:- Your refund  has not  been issued  because of the old product has been sent. ';
+        }
+    </script>
+</body>
+</html>
